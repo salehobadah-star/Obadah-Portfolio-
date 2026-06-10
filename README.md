@@ -3,7 +3,7 @@
 > Personal portfolio for **Obadah Saleh**, Electrical & MEP Engineer | MEP Coordinator | Industrial Automation Specialist — based in Dubai, UAE.
 
 **Live site:** *obadah.qzz.io*  
-**CV:** [https://1drv.ms/w/c/6745b9a1abfc6c22/IQADqJljhTcHQ5S8cKOOPXs2AT1mb1KWi67YuwMOurkyulg?e=v0iUd1]
+**CV:** [https://1drv.ms/w/c/6745b9a1abfc6c22/IQADqJljhTcHQ5S8cKOOPXs2AT1mb1KWi67YuwMOurkyulg?e=v0iUd1](https://1drv.ms/w/c/6745b9a1abfc6c22/IQADqJljhTcHQ5S8cKOOPXs2AT1mb1KWi67YuwMOurkyulg?e=v0iUd1)
 **LinkedIn:** [linkedin.com/in/obadahs](https://linkedin.com/in/obadahs)
 
 ---
@@ -268,7 +268,7 @@ Electrical & MEP Engineer · Dubai, UAE
 📧 salehobadah@outlook.com  
 📞 +971 564 738 143  
 🔗 [linkedin.com/in/obadahs](https://linkedin.com/in/obadahs)  
-📄 [https://1drv.ms/w/c/6745b9a1abfc6c22/IQADqJljhTcHQ5S8cKOOPXs2AT1mb1KWi67YuwMOurkyulg?e=v0iUd1]
+📄 [https://1drv.ms/w/c/6745b9a1abfc6c22/IQADqJljhTcHQ5S8cKOOPXs2AT1mb1KWi67YuwMOurkyulg?e=v0iUd1](https://1drv.ms/w/c/6745b9a1abfc6c22/IQADqJljhTcHQ5S8cKOOPXs2AT1mb1KWi67YuwMOurkyulg?e=v0iUd1)
 
 ---
 
