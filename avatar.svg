@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="avatarGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4C8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0A0F1E" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="hexClip">
+      <polygon points="150,10 280,80 280,220 150,290 20,220 20,80"/>
+    </clipPath>
+    <linearGradient id="avatarBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1B3E"/>
+      <stop offset="100%" stop-color="#0A0F1E"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4C8"/>
+      <stop offset="100%" stop-color="#4A9EFF"/>
+    </linearGradient>
+    <filter id="glowFilter">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer hex ring -->
+  <polygon points="150,8 283,80 283,222 150,294 17,222 17,80" 
+           fill="none" stroke="url(#accentGrad)" stroke-width="2" opacity="0.8"/>
+  <!-- Inner hex ring -->
+  <polygon points="150,20 271,86 271,216 150,282 29,216 29,86" 
+           fill="url(#avatarBg)" stroke="#1A2035" stroke-width="1"/>
+
+  <!-- Background fill -->
+  <polygon points="150,20 271,86 271,216 150,282 29,216 29,86" 
+           fill="url(#avatarBg)"/>
+
+  <!-- Glow center -->
+  <circle cx="150" cy="150" r="120" fill="url(#avatarGlow)"/>
+
+  <!-- Engineer silhouette / abstract figure -->
+  <!-- Shoulders/jacket -->
+  <ellipse cx="150" cy="230" rx="70" ry="40" fill="#0D1B3E"/>
+  <rect x="80" y="200" width="140" height="50" rx="10" fill="#0D1B3E"/>
+  
+  <!-- Collar / tie area -->
+  <polygon points="150,185 135,195 140,215 150,210 160,215 165,195" fill="#00D4C8" opacity="0.8"/>
+  
+  <!-- Head -->
+  <ellipse cx="150" cy="145" rx="45" ry="52" fill="#C8A882"/>
+  
+  <!-- Hair -->
+  <ellipse cx="150" cy="103" rx="46" ry="22" fill="#1A0A00"/>
+  <ellipse cx="110" cy="120" rx="18" ry="28" fill="#1A0A00"/>
+  <ellipse cx="190" cy="120" rx="18" ry="28" fill="#1A0A00"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="135" cy="142" rx="6" ry="7" fill="#fff"/>
+  <ellipse cx="165" cy="142" rx="6" ry="7" fill="#fff"/>
+  <circle cx="137" cy="143" r="4" fill="#2C1810"/>
+  <circle cx="167" cy="143" r="4" fill="#2C1810"/>
+  <circle cx="138" cy="141" r="1.5" fill="#fff"/>
+  <circle cx="168" cy="141" r="1.5" fill="#fff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M127,133 Q135,129 143,133" stroke="#1A0A00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M157,133 Q165,129 173,133" stroke="#1A0A00" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M148,155 Q145,164 150,167 Q155,164 152,155" stroke="#B09070" stroke-width="1.2" fill="none"/>
+  
+  <!-- Mouth / smile -->
+  <path d="M138,177 Q150,185 162,177" stroke="#8B6555" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Tech elements - circuit nodes on border -->
+  <g fill="none" stroke="#00D4C8" stroke-width="1.5" opacity="0.7" filter="url(#glowFilter)">
+    <circle cx="150" cy="8" r="4" fill="#00D4C8"/>
+    <circle cx="283" cy="80" r="4" fill="#00D4C8"/>
+    <circle cx="283" cy="222" r="4" fill="#00D4C8"/>
+    <circle cx="150" cy="294" r="4" fill="#00D4C8"/>
+    <circle cx="17" cy="222" r="4" fill="#00D4C8"/>
+    <circle cx="17" cy="80" r="4" fill="#00D4C8"/>
+  </g>
+
+  <!-- Corner label -->
+  <text x="105" y="270" font-family="monospace" font-size="9" fill="#00D4C8" opacity="0.7" text-anchor="middle">EE-MEP-AUT</text>
+</svg>

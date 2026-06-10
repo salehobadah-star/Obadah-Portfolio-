@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <defs>
+    <radialGradient id="glow1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00D4C8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#00D4C8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4A9EFF" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#4A9EFF" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur1">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+    <filter id="blur2">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#0A0F1E"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#1A2035" stroke-width="0.5" opacity="0.8">
+    <line x1="0" y1="100" x2="1400" y2="100"/>
+    <line x1="0" y1="200" x2="1400" y2="200"/>
+    <line x1="0" y1="300" x2="1400" y2="300"/>
+    <line x1="0" y1="400" x2="1400" y2="400"/>
+    <line x1="0" y1="500" x2="1400" y2="500"/>
+    <line x1="0" y1="600" x2="1400" y2="600"/>
+    <line x1="0" y1="700" x2="1400" y2="700"/>
+    <line x1="0" y1="800" x2="1400" y2="800"/>
+    <line x1="100" y1="0" x2="100" y2="900"/>
+    <line x1="200" y1="0" x2="200" y2="900"/>
+    <line x1="300" y1="0" x2="300" y2="900"/>
+    <line x1="400" y1="0" x2="400" y2="900"/>
+    <line x1="500" y1="0" x2="500" y2="900"/>
+    <line x1="600" y1="0" x2="600" y2="900"/>
+    <line x1="700" y1="0" x2="700" y2="900"/>
+    <line x1="800" y1="0" x2="800" y2="900"/>
+    <line x1="900" y1="0" x2="900" y2="900"/>
+    <line x1="1000" y1="0" x2="1000" y2="900"/>
+    <line x1="1100" y1="0" x2="1100" y2="900"/>
+    <line x1="1200" y1="0" x2="1200" y2="900"/>
+    <line x1="1300" y1="0" x2="1300" y2="900"/>
+  </g>
+
+  <!-- Circuit traces - horizontal -->
+  <g stroke="#00D4C8" stroke-width="1.5" fill="none" opacity="0.3">
+    <polyline points="0,150 250,150 250,250 500,250"/>
+    <polyline points="100,300 400,300 400,200 700,200"/>
+    <polyline points="600,400 900,400 900,300 1100,300"/>
+    <polyline points="800,500 1000,500 1000,600 1400,600"/>
+    <polyline points="0,550 200,550 200,650 500,650"/>
+    <polyline points="300,700 600,700 600,800 900,800"/>
+    <polyline points="1000,100 1200,100 1200,200 1400,200"/>
+    <polyline points="50,450 300,450 300,350 550,350"/>
+    <polyline points="700,750 1000,750 1000,850 1300,850"/>
+  </g>
+
+  <!-- Circuit traces - accent blue -->
+  <g stroke="#4A9EFF" stroke-width="1" fill="none" opacity="0.2">
+    <polyline points="150,50 150,200 400,200 400,350"/>
+    <polyline points="1250,150 1250,400 1100,400 1100,550"/>
+    <polyline points="750,50 750,150 900,150 900,250"/>
+    <polyline points="450,600 450,750 650,750 650,850"/>
+  </g>
+  
+  <!-- PCB nodes / solder pads -->
+  <g fill="#00D4C8" opacity="0.6">
+    <circle cx="250" cy="150" r="5"/>
+    <circle cx="250" cy="250" r="5"/>
+    <circle cx="500" cy="250" r="5"/>
+    <circle cx="400" cy="300" r="5"/>
+    <circle cx="400" cy="200" r="5"/>
+    <circle cx="700" cy="200" r="5"/>
+    <circle cx="900" cy="400" r="5"/>
+    <circle cx="900" cy="300" r="5"/>
+    <circle cx="1000" cy="500" r="5"/>
+    <circle cx="1000" cy="600" r="5"/>
+    <circle cx="200" cy="550" r="5"/>
+    <circle cx="200" cy="650" r="5"/>
+    <circle cx="500" cy="650" r="5"/>
+    <circle cx="600" cy="700" r="5"/>
+    <circle cx="600" cy="800" r="5"/>
+    <circle cx="900" cy="800" r="5"/>
+    <circle cx="1200" cy="100" r="5"/>
+    <circle cx="1200" cy="200" r="5"/>
+    <circle cx="300" cy="450" r="5"/>
+    <circle cx="300" cy="350" r="5"/>
+    <circle cx="1000" cy="750" r="5"/>
+    <circle cx="1000" cy="850" r="5"/>
+    <circle cx="1100" cy="300" r="5"/>
+    <circle cx="1100" cy="400" r="5"/>
+    <circle cx="1100" cy="550" r="5"/>
+    <circle cx="750" cy="150" r="5"/>
+    <circle cx="900" cy="150" r="5"/>
+    <circle cx="450" cy="750" r="5"/>
+    <circle cx="650" cy="750" r="5"/>
+    <circle cx="650" cy="850" r="5"/>
+  </g>
+
+  <!-- Glowing main nodes -->
+  <g>
+    <circle cx="700" cy="200" r="12" fill="url(#glow1)" filter="url(#blur2)"/>
+    <circle cx="700" cy="200" r="6" fill="#00D4C8"/>
+    
+    <circle cx="1100" cy="400" r="12" fill="url(#glow1)" filter="url(#blur2)"/>
+    <circle cx="1100" cy="400" r="6" fill="#00D4C8"/>
+    
+    <circle cx="500" cy="650" r="10" fill="url(#glow2)" filter="url(#blur1)"/>
+    <circle cx="500" cy="650" r="5" fill="#4A9EFF"/>
+
+    <circle cx="900" cy="300" r="10" fill="url(#glow2)" filter="url(#blur1)"/>
+    <circle cx="900" cy="300" r="5" fill="#4A9EFF"/>
+  </g>
+
+  <!-- IC chip shapes -->
+  <g fill="none" stroke="#00D4C8" stroke-width="1" opacity="0.4">
+    <!-- Chip 1 -->
+    <rect x="320" y="180" width="60" height="40" rx="3"/>
+    <line x1="330" y1="180" x2="330" y2="170"/>
+    <line x1="345" y1="180" x2="345" y2="170"/>
+    <line x1="360" y1="180" x2="360" y2="170"/>
+    <line x1="330" y1="220" x2="330" y2="230"/>
+    <line x1="345" y1="220" x2="345" y2="230"/>
+    <line x1="360" y1="220" x2="360" y2="230"/>
+    <text x="338" y="205" font-family="monospace" font-size="8" fill="#00D4C8" opacity="0.7">SYS</text>
+    
+    <!-- Chip 2 -->
+    <rect x="820" y="380" width="60" height="40" rx="3"/>
+    <line x1="830" y1="380" x2="830" y2="370"/>
+    <line x1="845" y1="380" x2="845" y2="370"/>
+    <line x1="860" y1="380" x2="860" y2="370"/>
+    <line x1="830" y1="420" x2="830" y2="430"/>
+    <line x1="845" y1="420" x2="845" y2="430"/>
+    <line x1="860" y1="420" x2="860" y2="430"/>
+    <text x="828" y="405" font-family="monospace" font-size="8" fill="#00D4C8" opacity="0.7">PLC</text>
+
+    <!-- Chip 3 -->
+    <rect x="150" y="530" width="60" height="40" rx="3"/>
+    <line x1="160" y1="530" x2="160" y2="520"/>
+    <line x1="175" y1="530" x2="175" y2="520"/>
+    <line x1="190" y1="530" x2="190" y2="520"/>
+    <line x1="160" y1="570" x2="160" y2="580"/>
+    <line x1="175" y1="570" x2="175" y2="580"/>
+    <line x1="190" y1="570" x2="190" y2="580"/>
+    <text x="158" y="556" font-family="monospace" font-size="8" fill="#00D4C8" opacity="0.7">MEP</text>
+  </g>
+
+  <!-- Capacitor symbols -->
+  <g stroke="#4A9EFF" stroke-width="1.5" opacity="0.35">
+    <line x1="550" y1="340" x2="550" y2="360"/>
+    <line x1="543" y1="348" x2="557" y2="348"/>
+    <line x1="543" y1="352" x2="557" y2="352"/>
+    <line x1="550" y1="355" x2="550" y2="370"/>
+    
+    <line x1="1050" y1="240" x2="1050" y2="260"/>
+    <line x1="1043" y1="248" x2="1057" y2="248"/>
+    <line x1="1043" y1="252" x2="1057" y2="252"/>
+    <line x1="1050" y1="255" x2="1050" y2="270"/>
+  </g>
+
+  <!-- Right side glow atmosphere -->
+  <ellipse cx="1200" cy="450" rx="200" ry="300" fill="url(#glow2)" opacity="0.12"/>
+  <ellipse cx="200" cy="700" rx="150" ry="200" fill="url(#glow1)" opacity="0.08"/>
+</svg>

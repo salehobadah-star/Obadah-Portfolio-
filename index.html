@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Obadah Saleh — Electrical & MEP Engineer, MEP Coordinator, and Industrial Automation Specialist based in Dubai, UAE."/>
+  <title>Obadah Saleh | Electrical & MEP Engineer · Dubai</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Favicon inline -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230A0F1E'/><polygon points='17,4 10,16 15,16 12,28 22,14 17,14 20,4' fill='%2300D4C8'/></svg>"/>
+</head>
+<body>
+
+<!-- Cursor glow -->
+<div id="cursor-glow"></div>
+
+<!-- ── NAVBAR ──────────────────────────────── -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">OS.</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="mailto:salehobadah@outlook.com" class="nav-cta">Hire Me</a>
+      <button class="nav-hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ── HERO ────────────────────────────────── -->
+<section id="hero">
+  <div class="hero-bg">
+    <img src="circuit-bg.svg" alt="Circuit board background" loading="eager"/>
+  </div>
+
+  <!-- Particle canvas overlay -->
+  <canvas id="hero-canvas" style="position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none;"></canvas>
+
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Dubai, UAE · Available Now</p>
+
+      <h1 class="hero-name">
+        <span>Obadah</span><br/>
+        <span class="line-teal">Saleh</span>
+      </h1>
+
+      <p class="hero-title">
+        <strong><span id="typing-text">Electrical &amp; MEP Engineer</span><span style="color:var(--teal);animation:blink 1s step-end infinite;">|</span></strong>
+      </p>
+
+      <p class="hero-desc">
+        Results-driven engineer bridging <strong style="color:var(--text);">MEP construction</strong> and 
+        <strong style="color:var(--text);">industrial automation</strong> — from LV power distribution and 
+        multi-discipline coordination to PLC programming and SCADA systems. Based in Dubai, UAE.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get In Touch
+        </a>
+        <a href="https://linkedin.com/in/obadahs" target="_blank" rel="noopener" class="btn-outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://bit.ly/obadahpro" target="_blank" rel="noopener" class="btn-outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          View CV
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num"><span data-count="2" data-suffix="+">0+</span></div>
+          <div class="stat-label">Years UAE Experience</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num"><span data-count="3" data-suffix="">0</span></div>
+          <div class="stat-label">Live Projects Dubai</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num"><span data-count="4" data-suffix="">0</span></div>
+          <div class="stat-label">Authorities Handled</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num"><span data-count="3" data-suffix="">0</span></div>
+          <div class="stat-label">PLC Platforms</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-hint">
+    <div class="scroll-mouse"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- ── ABOUT ────────────────────────────────── -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual reveal">
+        <div class="avatar-wrap">
+          <img src="avatar.svg" alt="Obadah Saleh — Electrical & MEP Engineer"/>
+          <div class="avatar-ring"></div>
+          <div class="about-badge">
+            <span class="badge-dot"></span>
+            <span class="badge-text">Open to opportunities</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <p class="section-tag reveal">// About Me</p>
+        <h2 class="section-heading reveal">A rare dual profile<br/>in engineering.</h2>
+        <p class="reveal reveal-delay-1">
+          I'm a results-driven Electrical & MEP Engineer based in Dubai, UAE — combining active site 
+          and design experience in building systems with a strong foundation in 
+          industrial automation and control engineering.
+        </p>
+        <p class="reveal reveal-delay-2">
+          Currently at <strong style="color:var(--text);">Ashiyana Contracting LLC</strong>, I design and coordinate LV electrical 
+          and MEP systems for residential and commercial developments in JVC and Arjan, delivered 
+          in full compliance with DEWA, Dubai Civil Defence, Dubai Municipality, and TRAKHEES.
+        </p>
+        <p class="reveal reveal-delay-3">
+          Prior training at <strong style="color:var(--text);">Sofcon India Pvt. Ltd.</strong> gave me hands-on PLC, SCADA, and HMI 
+          skills on Siemens and Allen-Bradley platforms — depth that most MEP engineers don't carry.
+        </p>
+
+        <div class="about-tags reveal">
+          <span class="tag">📍 Dubai, UAE</span>
+          <span class="tag">🇦🇪 Valid UAE Visa</span>
+          <span class="tag">🌐 English · Hindi · Urdu</span>
+          <span class="tag">⚡ B.Tech EEE</span>
+          <span class="tag">🏗 TRAKHEES Certified</span>
+          <span class="tag">🤖 Siemens TIA Portal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHAT I DO ──────────────────────────── -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="section-title-block">
+      <span class="section-tag reveal">// What I Do</span>
+      <h2 class="section-heading reveal">Four pillars of<br/>engineering excellence.</h2>
+    </div>
+
+    <div class="services-grid">
+
+      <!-- Card 1 -->
+      <div class="service-card reveal">
+        <div class="service-num">01</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="1.8" stroke-linecap="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+          </svg>
+        </div>
+        <h3 class="service-title">MEP Coordination</h3>
+        <p class="service-desc">
+          Multi-discipline coordination across electrical, HVAC, plumbing, fire protection, 
+          and structural disciplines on live projects. Clash detection via Revit MEP & Navisworks, 
+          RFI/submittal workflows, and authority NOC management (DEWA, DCD, Dubai Municipality, TRAKHEES).
+        </p>
+        <div class="service-tags">
+          <span class="tag">Revit MEP</span>
+          <span class="tag">Navisworks</span>
+          <span class="tag">Clash Detection</span>
+          <span class="tag">DEWA</span>
+          <span class="tag">DCD</span>
+          <span class="tag">TRAKHEES</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="service-card reveal reveal-delay-1">
+        <div class="service-num">02</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="1.8" stroke-linecap="round">
+            <rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/>
+          </svg>
+        </div>
+        <h3 class="service-title">MEP & Electrical Engineering</h3>
+        <p class="service-desc">
+          Full design and delivery of LV power distribution systems — MDB/SMDB/DB design, load 
+          calculations, voltage drop analysis, cable sizing, SLDs, lighting, fire alarm, 
+          ELV networks, earthing, lightning protection, and HVAC electrical integration.
+        </p>
+        <div class="service-tags">
+          <span class="tag">LV Distribution</span>
+          <span class="tag">AutoCAD</span>
+          <span class="tag">IEC Standards</span>
+          <span class="tag">NFPA 70/72/13</span>
+          <span class="tag">BMS Interface</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="service-card reveal reveal-delay-2">
+        <div class="service-num">03</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="1.8" stroke-linecap="round">
+            <rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/>
+            <line x1="9" y1="2" x2="9" y2="4"/><line x1="15" y1="2" x2="15" y2="4"/>
+            <line x1="9" y1="20" x2="9" y2="22"/><line x1="15" y1="20" x2="15" y2="22"/>
+            <line x1="2" y1="9" x2="4" y2="9"/><line x1="2" y1="15" x2="4" y2="15"/>
+            <line x1="20" y1="9" x2="22" y2="9"/><line x1="20" y1="15" x2="22" y2="15"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Industrial Automation & Control</h3>
+        <p class="service-desc">
+          PLC programming on Siemens TIA Portal (S7-1200/S7-1500) and Allen-Bradley Studio 5000 
+          (ladder logic, FBD, structured text), HMI design, SCADA configuration (WinCC, FactoryTalk), 
+          VFD integration, MCC/PCC panel design, and BMS protocols (BACnet, Modbus).
+        </p>
+        <div class="service-tags">
+          <span class="tag">Siemens TIA Portal</span>
+          <span class="tag">Allen-Bradley</span>
+          <span class="tag">WinCC SCADA</span>
+          <span class="tag">HMI</span>
+          <span class="tag">VFD</span>
+          <span class="tag">BACnet</span>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="service-card reveal reveal-delay-3">
+        <div class="service-num">04</div>
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="var(--muted)" stroke-width="1.8" stroke-linecap="round">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+          </svg>
+        </div>
+        <h3 class="service-title">Testing, Commissioning & Site</h3>
+        <p class="service-desc">
+          End-to-end T&amp;C of LV installations — insulation resistance (Megger), earth continuity, 
+          loop impedance, RCD testing, and performance verification. FAT/SAT support, PLC/SCADA 
+          loop checking, QA/QC, snagging, and full handover documentation.
+        </p>
+        <div class="service-tags">
+          <span class="tag">Megger Testing</span>
+          <span class="tag">Loop Impedance</span>
+          <span class="tag">FAT / SAT</span>
+          <span class="tag">QA/QC</span>
+          <span class="tag">As-Built</span>
+          <span class="tag">Handover</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── SKILLS ─────────────────────────────── -->
+<section id="skills" class="section">
+  <div class="container">
+    <div class="skills-header">
+      <span class="section-tag reveal">// Technical Arsenal</span>
+      <h2 class="section-heading reveal">Tools & Technologies</h2>
+    </div>
+
+    <div class="skills-bento">
+
+      <div class="skill-block wide reveal">
+        <div class="skill-block-header">
+          <div class="skill-block-icon">⚡</div>
+          <div class="skill-block-title">Electrical & MEP Design</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">LV/MV Power Distribution</span>
+          <span class="skill-pill">MDB / SMDB / DB Design</span>
+          <span class="skill-pill">Load Calculations</span>
+          <span class="skill-pill">Voltage Drop & Cable Sizing</span>
+          <span class="skill-pill">Single-Line Diagrams</span>
+          <span class="skill-pill">Lighting Design</span>
+          <span class="skill-pill">Small Power Systems</span>
+          <span class="skill-pill">Fire Alarm Systems</span>
+          <span class="skill-pill">ELV Systems</span>
+          <span class="skill-pill">Emergency Lighting</span>
+          <span class="skill-pill">Earthing & Lightning Protection</span>
+          <span class="skill-pill">HVAC Electrical Integration</span>
+          <span class="skill-pill">Control Panel Design (PCC/MCC)</span>
+          <span class="skill-pill">Relay Logic</span>
+          <span class="skill-pill">Motor Starters</span>
+          <span class="skill-pill">Wiring Schematics</span>
+        </div>
+      </div>
+
+      <div class="skill-block reveal reveal-delay-1">
+        <div class="skill-block-header">
+          <div class="skill-block-icon">🖥</div>
+          <div class="skill-block-title">CAD, BIM & Software</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">AutoCAD (Advanced)</span>
+          <span class="skill-pill">Revit MEP</span>
+          <span class="skill-pill">Navisworks</span>
+          <span class="skill-pill">AutoCAD Electrical</span>
+          <span class="skill-pill">E-Plan</span>
+          <span class="skill-pill">ETAP (Exposure)</span>
+        </div>
+      </div>
+
+      <div class="skill-block reveal reveal-delay-2">
+        <div class="skill-block-header">
+          <div class="skill-block-icon">🤖</div>
+          <div class="skill-block-title">Industrial Automation</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">Siemens TIA Portal</span>
+          <span class="skill-pill">S7-1200 / S7-1500</span>
+          <span class="skill-pill">Allen-Bradley Studio 5000</span>
+          <span class="skill-pill">Siemens WinCC</span>
+          <span class="skill-pill">Rockwell FactoryTalk</span>
+          <span class="skill-pill">HMI Design</span>
+          <span class="skill-pill">VFD & Motor Drives</span>
+          <span class="skill-pill">BACnet / Modbus</span>
+          <span class="skill-pill">Industry 4.0</span>
+        </div>
+      </div>
+
+      <div class="skill-block reveal">
+        <div class="skill-block-header">
+          <div class="skill-block-icon">🏛</div>
+          <div class="skill-block-title">Standards & Authority</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">DEWA</span>
+          <span class="skill-pill">Dubai Civil Defence</span>
+          <span class="skill-pill">Dubai Municipality</span>
+          <span class="skill-pill">TRAKHEES</span>
+          <span class="skill-pill">IEC Standards</span>
+          <span class="skill-pill">NFPA 70 / 72 / 13</span>
+          <span class="skill-pill">IEEE Standards</span>
+          <span class="skill-pill">UAE MEP Codes</span>
+        </div>
+      </div>
+
+      <div class="skill-block reveal reveal-delay-1">
+        <div class="skill-block-header">
+          <div class="skill-block-icon">📄</div>
+          <div class="skill-block-title">Documentation</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">RFIs / NCRs</span>
+          <span class="skill-pill">ITPs</span>
+          <span class="skill-pill">Method Statements</span>
+          <span class="skill-pill">Shop Drawing Review</span>
+          <span class="skill-pill">As-Built Drawings</span>
+          <span class="skill-pill">Commissioning Reports</span>
+          <span class="skill-pill">BOQ Inputs</span>
+          <span class="skill-pill">Handover Packages</span>
+        </div>
+      </div>
+
+      <div class="skill-block reveal reveal-delay-2">
+        <div class="skill-block-header">
+          <div class="skill-block-icon">🔧</div>
+          <div class="skill-block-title">Testing & Productivity</div>
+        </div>
+        <div class="skill-pills">
+          <span class="skill-pill">Insulation Resistance</span>
+          <span class="skill-pill">Earth Continuity</span>
+          <span class="skill-pill">Loop Impedance</span>
+          <span class="skill-pill">RCD Testing</span>
+          <span class="skill-pill">FAT / SAT</span>
+          <span class="skill-pill">MS Office (Advanced)</span>
+          <span class="skill-pill">Python (Scripting)</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── EXPERIENCE ──────────────────────────── -->
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-title-block">
+      <span class="section-tag reveal">// Experience</span>
+      <h2 class="section-heading reveal">Where I've worked.</h2>
+    </div>
+
+    <div class="exp-grid">
+      <!-- Tabs -->
+      <div class="exp-tabs reveal">
+        <button class="exp-tab active" data-tab="ashiyana">
+          <div>
+            <span class="exp-tab-company">Ashiyana Contracting</span>
+            <span class="exp-tab-role">MEP / Electrical Engineer</span>
+          </div>
+        </button>
+        <button class="exp-tab" data-tab="sofcon">
+          <div>
+            <span class="exp-tab-company">Sofcon India Pvt. Ltd.</span>
+            <span class="exp-tab-role">Industrial Automation</span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Panels -->
+      <div class="exp-panels reveal reveal-delay-1">
+
+        <div class="exp-panel active" id="panel-ashiyana">
+          <div class="exp-panel-head">
+            <h3 class="exp-panel-role">MEP / Electrical Engineer</h3>
+            <p class="exp-panel-company">Ashiyana Contracting LLC</p>
+            <div class="exp-panel-meta">
+              <span class="exp-meta-item">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                Jul 2024 – Present
+              </span>
+              <span class="exp-meta-item">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Dubai, UAE
+              </span>
+            </div>
+          </div>
+
+          <ul class="exp-responsibilities">
+            <li>Designing & coordinating LV electrical systems: power distribution, lighting, small power, fire alarm, ELV, and emergency lighting.</li>
+            <li>Preparing shop drawings, SLDs, load calculations, and wiring diagrams using AutoCAD and Revit MEP.</li>
+            <li>Managing multi-discipline MEP coordination with HVAC, plumbing, fire protection, architectural, and structural teams.</li>
+            <li>Testing and commissioning: insulation resistance, earth continuity, loop impedance, and RCD testing.</li>
+            <li>Full authority compliance handling — DEWA, Dubai Civil Defence, Dubai Municipality, and TRAKHEES.</li>
+            <li>Producing complete documentation: RFIs, method statements, ITPs, NCRs, material submittals, as-built drawings, and handover packages.</li>
+            <li>Liaising with consultants, subcontractors, attending authority inspections, and managing NOC processes.</li>
+          </ul>
+
+          <div class="exp-projects">
+            <p class="exp-projects-title">Notable Projects</p>
+            <div class="project-item">
+              <div class="project-dot"></div>
+              <span class="project-name">G+3P+12+R — Square X Residence by Tasmeer Indigo Properties | JVC, Dubai</span>
+            </div>
+            <div class="project-item">
+              <div class="project-dot"></div>
+              <span class="project-name">G+6+R — Avelon Boulevard by Avelon Developments | Arjan, Dubai</span>
+            </div>
+            <div class="project-item">
+              <div class="project-dot"></div>
+              <span class="project-name">B+G+6+R — Trevino by Avelon Developments | JVC, Dubai</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-panel" id="panel-sofcon">
+          <div class="exp-panel-head">
+            <h3 class="exp-panel-role">Industrial Automation Engineer</h3>
+            <p class="exp-panel-company">Sofcon India Pvt. Ltd.</p>
+            <div class="exp-panel-meta">
+              <span class="exp-meta-item">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                Sep 2023 – Mar 2024
+              </span>
+              <span class="exp-meta-item">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Noida, India
+              </span>
+              <span class="exp-meta-item" style="color:var(--teal);">Internship & Training</span>
+            </div>
+          </div>
+
+          <ul class="exp-responsibilities">
+            <li>PLC programming using Siemens TIA Portal (S7-1200/S7-1500) and Allen-Bradley Studio 5000 — ladder logic, function blocks, and structured text.</li>
+            <li>HMI screen design with PLC integration, real-time process visualization, and alarm management.</li>
+            <li>SCADA configuration using Siemens WinCC and Rockwell FactoryTalk for monitoring, data logging, and trending.</li>
+            <li>PCC/MCC control panel design, wiring, relay logic, motor starters, and safety interlocks.</li>
+            <li>VFD integration and variable-speed motor control.</li>
+            <li>Functional testing, troubleshooting, commissioning support, and loop checking.</li>
+            <li>Electrical schematic and panel layout documentation using E-Plan and AutoCAD Electrical.</li>
+            <li>Exposure to Industry 4.0: networked automation, smart sensors, AMR, digital twins, and 3D printing.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── EDUCATION & CERTS ───────────────────── -->
+<section id="education" class="section">
+  <div class="container">
+    <div class="section-title-block">
+      <span class="section-tag reveal">// Education & Credentials</span>
+      <h2 class="section-heading reveal">Qualifications.</h2>
+    </div>
+
+    <div class="edu-cert-grid">
+      <div class="edu-block">
+        <div class="edu-card reveal">
+          <p style="font-family:var(--font-mono);font-size:0.72rem;color:var(--teal);letter-spacing:0.1em;margin-bottom:1rem;">DEGREE</p>
+          <h3 class="edu-degree">B.Tech — Electrical & Electronics Engineering</h3>
+          <p class="edu-school">IES College of Technology, Bhopal, India</p>
+          <p class="edu-year">2019 – 2023</p>
+          <div style="margin-top:1.2rem;display:flex;flex-wrap:wrap;gap:0.5rem;">
+            <span class="tag">Power Systems</span>
+            <span class="tag">Control Theory</span>
+            <span class="tag">Electronics</span>
+            <span class="tag">Instrumentation</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="cert-block reveal reveal-delay-1">
+        <p style="font-family:var(--font-mono);font-size:0.72rem;color:var(--teal);letter-spacing:0.1em;margin-bottom:1.2rem;">CERTIFICATIONS</p>
+        <ul class="cert-list">
+          <li class="cert-item">
+            <div class="cert-icon">🏛</div>
+            <div>
+              <p class="cert-name">Building Regulations & Design Guidelines (MEP)</p>
+              <p class="cert-org">TRAKHEES — Dubai</p>
+            </div>
+          </li>
+          <li class="cert-item">
+            <div class="cert-icon">🤖</div>
+            <div>
+              <p class="cert-name">Industrial Automation Training</p>
+              <p class="cert-org">Sofcon India Pvt. Ltd. — PLC, HMI, SCADA, Drives, Instrumentation</p>
+            </div>
+          </li>
+          <li class="cert-item">
+            <div class="cert-icon">💡</div>
+            <div>
+              <p class="cert-name">Certificate in Entrepreneurship</p>
+              <p class="cert-org">Indian School of Business & CSC Academy</p>
+            </div>
+          </li>
+          <li class="cert-item">
+            <div class="cert-icon">🇮🇳</div>
+            <div>
+              <p class="cert-name">Common Service Centre (CSC)</p>
+              <p class="cert-org">Government of India — Digital India Programme</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CONTACT ─────────────────────────────── -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="contact-inner">
+      <span class="section-tag reveal" style="display:inline-block;margin-bottom:0.8rem;">// Get In Touch</span>
+      <h2 class="section-heading reveal">Let's build something.</h2>
+      <p class="reveal">
+        Whether you're looking for an MEP engineer for your next Dubai project, 
+        need automation expertise, or just want to connect — my inbox is open.
+      </p>
+
+      <div class="contact-links reveal">
+        <a href="mailto:salehobadah@outlook.com" class="contact-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          salehobadah@outlook.com
+        </a>
+        <a href="tel:+971564738143" class="contact-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.06 6.06l1.03-.89a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          +971 564 738 143
+        </a>
+        <a href="https://linkedin.com/in/obadahs" target="_blank" rel="noopener" class="contact-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          linkedin.com/in/obadahs
+        </a>
+        <a href="https://bit.ly/obadahpro" target="_blank" rel="noopener" class="contact-link">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          View Full CV
+        </a>
+      </div>
+
+      <div class="contact-availability reveal">
+        Immediately available · Dubai, UAE · Valid UAE Residence Visa
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ──────────────────────────────── -->
+<footer>
+  <div class="container">
+    <p>Designed & built by <span>Obadah Saleh</span> · Dubai, UAE · <span>2025</span></p>
+  </div>
+</footer>
+
+<style>
+  @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+</style>
+
+<script src="script.js"></script>
+</body>
+</html>
